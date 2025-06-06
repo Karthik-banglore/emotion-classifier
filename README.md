@@ -20,6 +20,22 @@ A simple web app to classify text into emotions (sadness, joy, love, anger, fear
 2. Click "Submit".
 3. See the predicted emotion instantly!
 
+## Dataset Used
+- [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion)
+
+## Approach Summary
+- Preprocessed text data (cleaning, lowercasing, removing punctuation, etc.)
+- Used TF-IDF vectorization for feature extraction.
+- Trained a Logistic Regression classifier to predict one of six emotions.
+- Evaluated with accuracy, confusion matrix, and classification report.
+- Built a Gradio web app for interactive predictions.
+
+## Dependencies
+- scikit-learn
+- pandas
+- gradio
+- datasets
+
 ## 📊 Model Performance
 
 **Accuracy:** 0.85
